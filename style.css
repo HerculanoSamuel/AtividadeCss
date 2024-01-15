@@ -1,8 +1,11 @@
 body{
     padding: 0;
     margin: 0;
-    background-color:blueviolet;
-}
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
 header{
     background-color: #333;
     color: #fff;
@@ -10,7 +13,7 @@ header{
     text-align: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;;
+    align-items: center;
 }
 nav{
     padding: 10px;
@@ -31,7 +34,8 @@ nav a {
 }
 main{
     text-align: center;
-    padding: 300px
+    padding: 300px;
+    flex: 1;
 }
 main h2{
     font-family: 'Courier New', Courier, monospace;
@@ -44,5 +48,6 @@ main p{
 }
 footer{
     text-align: center;
+    font-size: 25px;
     
 }
